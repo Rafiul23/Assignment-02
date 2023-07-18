@@ -120,6 +120,9 @@
 .fa-circle-play, .fa-user-group, .fa-download{
     margin-right: 5px;
 }
+.fa-circle-play, .fa-download{
+    color: #FF42A5;
+}
 .banner-img{
 
 }
@@ -131,21 +134,55 @@
 /* responsiveness starts here */
 @media screen and (max-width: 425px) {
     .nav-container,
-    .nav-links{
+    .nav-links,
+    .banner{
         flex-direction: column;
         justify-content: center;
         gap: 12px;
     }
     .nav-container{
-        height: fit-content;
+        min-height: 100px;
         box-shadow: none;
         margin-top: 5px;
+    }
+    .nav-child-1,
+    .nav-child-2{
+        height: 50px;
     }
     .nav-title{
         font-size: 2rem;
     }
     .nav-link{
         font-size: 10px;
+    }
+    .banner{
+        width: 80%;
+        margin: 50px auto;
+        gap: 30px;
+    }
+    .banner-content{
+        margin-top: 400px;
+        height: 100%;
+        min-width: 100%;
+    }
+    .banner-main{
+        margin-left: 30px;
+    }
+    .banner-btn-1,.banner-btn-2{
+        padding: 10px 15px;
+    }
+    .banner-btn-1{
+        margin-right: 10px;
+    }
+    .banner-img{
+        margin-top: 80px;
+        min-width: 100%;
+    }
+    .banner-heading-top{
+        font-size: 2rem;
+    }
+    .banner-heading-bottom{
+        font-size: 3rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -163,5 +200,20 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+    .banner-heading-top{
+        font-size: 3rem;
+    }
+    .banner-heading-bottom{
+        font-size: 3.5rem;
+    }
+    .banner-main{
+        margin-left: 1.5rem;
+    }
+     .banner-content{
+        width: 50%;
+    }
+    .banner-img{
+        width: 50%;
+    } 
 }
 /* responsiveness ends here */
