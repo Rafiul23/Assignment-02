@@ -131,11 +131,50 @@
     height: 95%;
 }
 /* banner styles ends here */
+/* funny video styles starts here */
+.funny-video-sec{
+    margin-top: 50px;
+}
+.funny-sec-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funnny-sec-para{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.funny-video-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 2rem;
+}
+.funny-video{
+    width: 280px;
+    height: 280px;
+}
+.funny-img{
+    width: 100%;
+    height: 90%;
+}
+.f-v{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* funny video styles ends here */
 /* responsiveness starts here */
 @media screen and (max-width: 425px) {
     .nav-container,
     .nav-links,
-    .banner{
+    .banner,
+    .funny-video-container{
         flex-direction: column;
         justify-content: center;
         gap: 12px;
@@ -147,7 +186,7 @@
     }
     .nav-child-1,
     .nav-child-2{
-        height: 50px;
+        min-height: 50px;
     }
     .nav-title{
         font-size: 2rem;
@@ -156,13 +195,13 @@
         font-size: 10px;
     }
     .banner{
-        width: 80%;
+        min-width: 80%;
         margin: 50px auto;
         gap: 30px;
     }
     .banner-content{
         margin-top: 400px;
-        height: 100%;
+        min-height: 85%;
         min-width: 100%;
     }
     .banner-main{
@@ -176,7 +215,8 @@
     }
     .banner-img{
         margin-top: 80px;
-        min-width: 100%;
+        margin-left: 15px;
+        min-width: 90%;
     }
     .banner-heading-top{
         font-size: 2rem;
@@ -184,6 +224,18 @@
     .banner-heading-bottom{
         font-size: 3rem;
     }
+    .funny-video-sec{
+        margin-top: 500px;
+    }
+    .funny-description{
+       
+    }
+    .funny-video{
+        min-width: 300px;
+        min-height: 250px;
+        margin-left: 60px;
+    }
+   
 }
 @media screen and (max-width: 768px) {
     .nav-container{
@@ -215,5 +267,9 @@
     .banner-img{
         width: 50%;
     } 
+    .funny-video{
+        width: 20%;
+        height: 85%;
+    }
 }
 /* responsiveness ends here */
