@@ -37,6 +37,10 @@
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+    transition: all 0.5s;
+}
+.nav-link:hover{
+    color: #ff0284;
 }
 .nav-title{
     color: #0B0223;
@@ -106,6 +110,7 @@
     border: none;
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    transition: all 0.5s;
 }
 .banner-btn-2{
     color: #FFF;
@@ -116,12 +121,17 @@
     border: none;
     border-radius: 48px;
     background: #4EC5F7;
+    transition: all 0.5s;
 }
+
 .banner-btn-1:hover{
     cursor: pointer;
+    transform: rotate(-20deg);
 }
 .banner-btn-2:hover{
     cursor: pointer;
+    background-color: #fff;
+    color: #4EC5F7;
 }
 .fa-circle-play, .fa-user-group, .fa-download{
     margin-right: 5px;
@@ -172,7 +182,7 @@
     position: relative;
     font-size: 1rem;
     top: 150px;
-    left: 125px;
+    left: 130px;
     z-index: 3;
 }
 .f-play{
@@ -336,6 +346,13 @@ footer{
     padding: 5px 12px;
     border-radius: 50%;
     margin-left: 15px;
+}
+.footer-icons .fa-brands{
+    transition: all 0.5s;
+}
+.footer-icons .fa-brands:hover{
+    background-color: #ff0284;
+    transform: scale(1.2);
 }
 .footer-icons{
     display: flex;
