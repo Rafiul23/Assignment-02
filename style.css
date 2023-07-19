@@ -254,6 +254,76 @@
     margin-right: 5px;
 }
 /* other games ends here */
+/* footer starts here */
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #0B0223;
+}
+.footer-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+.footer-title{
+    text-align: center;
+    font-size: 3rem;
+    color: #FFF;
+    font-weight: 700;
+}
+.footer-links-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer-links-1 li{
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.fa-facebook-f{
+    color: #4EC5F7;
+    background-color: #FFF;
+    padding: 5px 12px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.footer-icons .fa-brands{
+    font-size: 3rem;
+}
+.footer-links-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-link-2{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* footer ends here */
 /* responsiveness starts here */
 @media screen and (max-width: 768px) {
     .nav-container{
@@ -395,7 +465,22 @@
         height: 15px;
         padding: 2px;
         margin-left: 1px;
-        
+    }
+    .footer-link,
+    .footer-link-2, 
+    .footer-description{
+        font-size: 0.5rem;
+    }
+    .footer-icons .fa-brands{
+        font-size: 2rem;
+    }
+   
+    .footer-title{
+        font-size: 2rem;
+    }
+    .footer-links-1, .footer-links-2{
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
