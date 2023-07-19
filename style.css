@@ -130,7 +130,7 @@
 }
 .banner-btn-2:hover{
     cursor: pointer;
-    background-color: #fff;
+    background-color: #4000ff;
     color: #4EC5F7;
 }
 .fa-circle-play, .fa-user-group, .fa-download{
@@ -350,8 +350,17 @@ footer{
 .footer-icons .fa-brands{
     transition: all 0.5s;
 }
-.footer-icons .fa-brands:hover{
-    background-color: #ff0284;
+.footer-icons .fa-twitter:hover{
+    background-color: #2fbbf6;
+    transform: scale(1.2);
+}
+.footer-icons .fa-facebook-f:hover{
+    background-color: #0471ff;
+    color: #fff;
+    transform: scale(1.2);
+}
+.footer-icons .fa-youtube:hover{
+    background-color: red;
     transform: scale(1.2);
 }
 .footer-icons{
