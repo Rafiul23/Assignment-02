@@ -117,6 +117,12 @@
     border-radius: 48px;
     background: #4EC5F7;
 }
+.banner-btn-1:hover{
+    cursor: pointer;
+}
+.banner-btn-2:hover{
+    cursor: pointer;
+}
 .fa-circle-play, .fa-user-group, .fa-download{
     margin-right: 5px;
 }
@@ -159,6 +165,35 @@
 .funny-img{
     width: 100%;
     height: 90%;
+    transition: all 0.5s;
+    padding: 1px;
+}
+.fa-play{
+    position: relative;
+    font-size: 1rem;
+    top: 150px;
+    left: 125px;
+    z-index: 3;
+}
+.f-play{
+    position: relative;
+    color: #FF42A5;
+    top: 155px;
+    font-size: 1.5rem;
+    left:80px;
+    z-index: 3;
+}
+.f-play:hover{
+    cursor: pointer;
+    color: #ff0284;
+}
+.funny-img:hover{
+    border: 3px solid #FF42A5;
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+.fa-play:hover{
+    font-size: 1.5rem;
 }
 .f-v{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -259,6 +294,14 @@ footer{
     width: 100%;
     height: 50vh;
     background-color: #0B0223;
+}
+.footer-link a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-link-2 a{ 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
 }
 .footer-div-1{
     display: flex;
@@ -379,6 +422,14 @@ footer{
     .play-title{
         font-size: 2rem;
     }
+    .fa-play{
+        top: 120px;
+        left: 60px;
+    }
+    .f-play{
+        top: 127px;
+        left: 30px;
+    }
 }
 @media screen and (max-width: 425px) {
     .nav-container,
@@ -442,6 +493,14 @@ footer{
         min-width: 300px;
         min-height: 250px;
         margin-left: 60px;
+    }
+    .fa-play{
+        top: 150px;
+        left: 120px;
+    }
+    .f-play{
+        top: 160px;
+        left: 80px;
     }
     .play-title, .play-para{
         text-align: center;
